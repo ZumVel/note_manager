@@ -1,0 +1,13 @@
+username = input("Enter your username: ")
+title = input("Enter the name of your task: ")
+content = input("Enter the content of your task: ")
+status = input("Enter the status of your task: ")
+created_date = input("Enter the created date in DD-MM format: ")
+issue_date = input("Enter the issue date in DD-MM format: ")
+
+print(f"The username of the person creating the task: {username}")
+print(f"The title of the task: {title}")
+print(f"The content or description of the task: {content}")
+print(f"The current status of the task: {status}")
+print(f"The date the task was created: {created_date}")
+print(f"The date the task is issued: {issue_date}")
