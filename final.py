@@ -6,7 +6,20 @@ content = input("Enter the content of your task: ")
 status = input("Enter the status of your task: ")
 created_date = input("Enter the created date in DD-MM format: ")
 issue_date = input("Enter the issue date in DD-MM format: ")
-titles_list = [title1, title2, title3]
-note = [username, content, status, created_date, issue_date, titles_list]
+titles = [title1, title2, title3]
+note = {
+    "username": username,
+    "content": content,
+    "status": status,
+    "created_date": created_date,
+    "issue_date": issue_date,
+    "titles": titles
+}
 
-print(note)
+print(
+    f"Username: {note['username']}", f"Content: {note['content']}",
+    f"Status: {note['status']}", f"Created Date: {note['created_date']}",
+    f"Issue Date: {note['issue_date']}", "Titles: ", sep="\n"
+)
+for i in note["titles"]:
+    print(f"   {i}")
