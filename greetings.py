@@ -1,8 +1,10 @@
 username = "Admin"
-title = "Create a repository on github and upload the greetings.py file there"
-content = ("Create variables, assign them the appropriate values "
-           "and you will enter them using the appropriate functions. "
-           "Upload the solution file to the repository 'note_manager' on GitHub")
+title = "Create a repository on GitHub and upload the greetings.py file there"
+content = (
+    "Create variables, assign them the appropriate values "
+    "and you will enter them using the appropriate functions. "
+    "Upload the solution file to the repository 'note_manager' on GitHub"
+)
 status = "Created"
 created_date = "13-01-2025"
 issue_date = "14-01-2025"
