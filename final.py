@@ -18,8 +18,8 @@ note = {
 
 print(
     f"Username: {note['username']}", f"Content: {note['content']}",
-    f"Status: {note['status']}", f"Created Date: {note['created_date']}",
-    f"Issue Date: {note['issue_date']}", "Titles: ", sep="\n"
+    f"Status: {note['status']}", f"Created Date: {"-".join(note["created_date"].split("-")[:2])}",
+    f"Issue Date: {"-".join(note["issue_date"].split("-")[:2])}", "Titles: ", sep="\n"
 )
 for i in note["titles"]:
     print(f"   {i}")
