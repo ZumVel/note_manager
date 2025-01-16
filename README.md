@@ -22,3 +22,10 @@ final.py
   Functionality:
     All data (username, content, status, dates, list of titles) is combined into a dictionary.
     Data is displayed in a structured format.
+
+add_titles_loop.py
+  Functionality:
+    Allows the user to dynamically add any number of titles to the list. 
+    The user can end the entry by entering a blank line. 
+    Duplicate titles are not allowed. 
+    All added titles are displayed in a structured format.
