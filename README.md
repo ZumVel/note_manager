@@ -29,3 +29,9 @@ add_titles_loop.py
     The user can end the entry by entering a blank line. 
     Duplicate titles are not allowed. 
     All added titles are displayed in a structured format.
+
+update_status.py
+  Functionality:
+    Allows the user to update the status of a note interactively. 
+    The user can input a new status, which replaces the current one. 
+    If no input is provided, the status remains unchanged, and the program exits gracefully.
